@@ -19,3 +19,5 @@ https://www.python.org
 这一步是用来自动调试系统环境变量，免去了之后手动调试的工作。  
 
 python安装好之后，我们要检测一下是否安装成功，用系统管理员打开命令行工具cmd，输入“python -V”,然后敲回车，如果出现如下界面，则表示我们安装成功了；  
+![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/QQ%E6%88%AA%E5%9B%BE20190304122730.jpg)  
+# 二.OpenCV：Python下OpenCV安装
