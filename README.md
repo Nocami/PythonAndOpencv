@@ -46,4 +46,4 @@ cv.waitKey(0)
 cv2.destroyAllWindows()   
 图片打开正常，测试成功。  
 
-![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/4.jpg)
+![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/5.jpg)
