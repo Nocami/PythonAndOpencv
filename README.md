@@ -32,5 +32,18 @@ python安装好之后，我们要检测一下是否安装成功，用系统管�
 接下来我们进行测试，在命令提示行输入“python”  
 ![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/3.jpg)  
 再输入“import cv2”，出现下图即意味着大功告成啦：  
-![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/4.jpg)
+![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/4.jpg)  
+再测试一下我们的相应代码，打卡库中的test.py,源码如下：  
+#导入cv模块  
+import cv2 as cv  
+#读取图像，支持 bmp、jpg、png、tiff 等常用格式  
+img = cv.imread("E:\Study\image_processing\ch2\Fig0228(a).tif")  
+#创建窗口并显示图像  
+cv.namedWindow("Image")  
+cv.imshow("Image",img)  
+cv.waitKey(0)  
+#释放窗口  
+cv2.destroyAllWindows()   
+图片打开正常，测试成功。  
 
+![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/4.jpg)
