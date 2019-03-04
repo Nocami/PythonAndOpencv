@@ -20,4 +20,11 @@ https://www.python.org
 
 python安装好之后，我们要检测一下是否安装成功，用系统管理员打开命令行工具cmd，输入“python -V”,然后敲回车，如果出现如下界面，则表示我们安装成功了；  
 ![image](https://github.com/Nocami/PythonAndOpencv/blob/master/gabbage/QQ%E6%88%AA%E5%9B%BE20190304122730.jpg)  
-# 二.OpenCV：Python下OpenCV安装
+# 二.OpenCV：Python下OpenCV安装  
+有两种方法进行对应版本opencv安装。  
+①第一种：  
+打开命令提示符，输入 pip install opencv-python  ，开始自动安装。  
+②第二种：  
+先去官网https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv ，下载相应Python版本的OpenCV的whl文件，如本人下载的opencv_python‑4.0.1‑cp37‑cp37m‑win_amd64.whl，然后在whl文件所在目录下，
+命令 pip install opencv_python‑4.0.1‑cp37‑cp37m‑win_amd64.whl 进行安装即可
+
